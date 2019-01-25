@@ -12,19 +12,43 @@
     <header id="header">
         <img src="img/Logo_Delorean_Motor_Company.png" alt="Delorean Motor Company Logo" id="header-img">
         <nav id="nav-bar">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="history.html" class="nav-link">History</a>
-            <a href="about.html">About</a>
+            <a href="#start" class="nav-link">Home</a>
+            <a href="#history" class="nav-link">History</a>
+            <a href="#about" class="nav-link">About</a>
         </nav>
     </header>
     <div class="main-content">
-        <h1>DeLorean DMC-12</h1>
-        <video id="video" controls>
-            <source src="video/DeLorean.mp4" type="video/mp4">
-        </video>
-        <form action="https://www.freecodecamp.com/email-submit" id="form">
-            <input type="email" placeholder="Enter your E-Mail" id="email" required>
-        </form>
-    </div>
-</body>
-</html>
+        <h1 id="start">DeLorean DMC-12</h1>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/0lrIqGphJx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <label for="email">Enter your E-Mail if you wish to receive updates about DeLorean: </label><br>
+                <input name="email" type="email" placeholder="Enter your E-Mail" id="email" required/><br>
+                <input id="submit" type="submit" value="Get Updates!" class="button">
+            </form>
+            <div id="history">
+                <h2>History</h2>
+                <p>In October 1976, the first prototype DeLorean was completed by American automotive chief engineer William T. Collins, formerly chief engineer at Pontiac. Originally, the car was intended to have a centrally-mounted Wankel rotary engine. The engine selection was reconsidered when Comotor production ended, and the favored engine became Ford's "Cologne V6". Eventually the French/Swedish PRV (Peugeot-Renault-Volvo) fuel-injected V6 was selected. Also the engine location moved from the mid-engined location in the prototype to a rear-engined installation in the production car. The chassis was initially planned to be produced from a new and untested manufacturing technology known as elastic reservoir moulding (ERM), which would lighten the car while presumably lowering its production costs. This new technology, for which DeLorean had purchased patent rights, was eventually found to be unsuitable.</p>
+                <p>These and other changes to the original concept led to considerable schedule pressures. The entire car was deemed to require almost complete re-engineering, which was turned over to engineer Colin Chapman, founder and owner of Lotus Cars. Chapman replaced most of the unproven material and manufacturing techniques with those then employed by Lotus, like the steel backbone chassis.</p>               
+                <p>In an interview with James Espey of the new incarnation of the DeLorean Motor Company of Texas, a drawing surfaced showing that the car originally had the potential to be named "Z Tavio". John DeLorean's middle name and his son's first name were both Zachary, while Tavio was his father's name and his son's middle name. Due to only sporadic documentation, there is little more that is currently known about the Z Tavio name and why it was ultimately rejected in favor of the DeLorean.[7] During development, the prototype was known as the DMC-12 because of its intended price of US$12,000, a goal that was never reached.[8][9] Numerous sources later continued to erroneously refer to the production car as the DMC-12.</p>
+                <p>DeLorean required US$175 million to develop and build the motor company.[10] Convincing Hollywood celebrities such as Johnny Carson and Sammy Davis, Jr. to invest in the firm,[11][12] DeLorean eventually built the DeLorean in a factory in Dunmurry, Northern Ireland, a neighborhood about seven miles from Belfast city center.</p> 
+                <p>The company had originally intended to build the factory in Puerto Rico,[13][14] but changed its plans when the Northern Ireland Development Agency offered £100 million towards it,[15] despite an assessment by consultants hired by the NIDA that the business had only a 1-in-10 chance of success.</p>                
+                <p>Construction on the factory began in October 1978, and although production of the DeLorean was scheduled to start in 1979, engineering problems and budget overruns delayed production until early 1981.[citation needed] By the time production actually began in 1981, the unemployment rate was high in Northern Ireland, and local residents lined up to apply for jobs at the factory. The workers were largely inexperienced, but were paid premium wages and supplied with the best equipment available. Most quality issues were solved by 1982, and the cars were sold from dealers with a one-year, 12,000-mile (19,000 km) warranty and an available five-year, 50,000-mile (80,000 km) service contract.</p>                                
+                <p>The DeLorean Motor Company went bankrupt in late 1982 following John DeLorean's arrest in October of that year on drug-trafficking charges. He was later found not guilty, but it was too late for the DeLorean to remain in production. Approximately 100 partially assembled DeLoreans on the production line were completed by Consolidated International (now known as Big Lots). The remaining parts from the factory stock, the parts from the US Warranty Parts Center, as well as parts from the original suppliers that had not yet been delivered to the factory were all shipped to Columbus, Ohio in 1983–1984. A company called KAPAC sold these parts to retail and wholesale customers by mail order. In 1997, DeLorean Motor Company of Texas acquired this inventory.[16] There had also been a long-standing rumor that the body stamping dies were dumped into the ocean to prevent later manufacture. Evidence later emerged that the dies were used as anchors for nets at a fish farm in Ards Bay, Connemara, Ireland.</p>                
+                <p>About 9,200 DeLoreans were produced between January 1981 and December 1982.[18] Almost a fifth of these were produced in October 1981. About a thousand 1982 models were produced between February and May 1982, and all of these cars had the VINs changed after purchase by Consolidated to make them appear as 1983 models. There are the 15XXX, 16XXX, and 17XXX VINs, which were originally 10XXX, 11XXX, and 12XXX VINs. Only a dozen 12XXXX VIN cars still exist. These are the Wooler-Hodec right-hand-drive cars.</p>
+            </div>
+            <div id="about">
+                <h2>About</h2>
+                <p>
+                    This page was created as a project for freeCodeCamp. It is merely a fictional Product Landing Page to practice plain CSS.
+                </p>
+                <p>
+                    It is in no way affiliated with DeLorean. The real DeLorean website can be found <a href="https://www.delorean.com">here</a>.
+                </p>
+                <p>
+                    The logo on the top and the history text were taken from the DeLorean Motor Company <a href="https://en.wikipedia.org/wiki/DeLorean_Motor_Company">Wikipedia page</a>.
+                </p>
+            </div>
+        </div>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+    </html>
